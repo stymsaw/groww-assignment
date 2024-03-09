@@ -1,14 +1,8 @@
 package com.stym.assignment.data.retrofit
 
-import com.stym.assignment.data.models.category.CategoryModel
-import com.stym.assignment.data.models.create_product.CreateProduct
-import com.stym.assignment.data.models.product.ProductModel
 import com.stym.assignment.data.models.search.SearchedResult
 import com.stym.assignment.data.models.token.AccessToken
-import com.stym.assignment.data.models.users.UserModel
-import com.stym.assignment.utils.Constants
 import retrofit2.Response
-import retrofit2.http.Body
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.GET

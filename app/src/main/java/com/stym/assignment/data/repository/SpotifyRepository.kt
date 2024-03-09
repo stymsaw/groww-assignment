@@ -1,23 +1,15 @@
 package com.stym.assignment.data.repository
 
-import android.content.Context
 import com.stym.assignment.BaseApplication
-import com.stym.assignment.data.retrofit.SpotifyAPI
-import com.stym.assignment.data.models.create_product.CreateProduct
-import com.stym.assignment.data.models.category.CategoryModel
-import com.stym.assignment.data.models.product.ProductModel
 import com.stym.assignment.data.models.search.SearchedResult
 import com.stym.assignment.data.models.token.AccessToken
-import com.stym.assignment.data.models.users.UserModel
+import com.stym.assignment.data.retrofit.SpotifyAPI
 import com.stym.assignment.utils.Constants
-import dagger.hilt.android.qualifiers.ApplicationContext
-import dagger.hilt.internal.aggregatedroot.codegen._com_stym_assignment_BaseApplication
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import retrofit2.Response
 import javax.inject.Inject
 
 class SpotifyRepository @Inject constructor(
